@@ -6,19 +6,23 @@ body {
 }
 .container {
     text-align: center;
-    background-color: rgba(35, 35, 51, 0.664);
-    background-attachment: fixed;
-    background-size: auto;
+    background-color: rgba(35, 35, 51, 0.582);
+    margin: 20px 500px;
     color: white;
 
 }
 
+.form h3 {
+    
+}
+
 .form {
-    padding: 20px;
+    padding: 15px;
 }
 
 .all {
     padding: 10px;
+    margin-top: -20px;
 }
 
 #one {
@@ -29,18 +33,18 @@ body {
    
 }
 
-.input {
-    padding: 10px 0 15px 0;
+input {
+    padding: 10px 0 10px 0;
     text-align: center;
     font-size: 16px;
     font-weight: bold;
     box-sizing: border-box;
     background-color: transparent;
     color: white;
-    border: 2px solid;
-    border-right: none;
+    border-bottom: 1.5px solid yellow !important;
+    /* border-right: none;
     border-left: none;
-    border-top: none;
+    border-top: none; */
     width: 250px;
     border: none;
 }
@@ -55,8 +59,27 @@ body {
     font-size: 20px;
 }
 
-.input:active {
-    bo
+.button {
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    width:100px;
+    height: 40px;
+    color: black;
+    padding: 10px 20px 15px 20px;
+    text-align: center;
+    margin-top: 10px;
+    border: 1.5px solid yellow;
+}
+
+.para p {
+    color: blue;
+}
+
+.signin {
+    color: yellow;
+    background-color: transparent;
+    border: none;
 }
 
 

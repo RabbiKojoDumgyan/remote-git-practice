@@ -15,31 +15,31 @@
                 <h3>Sign Up</h3>
                 <div class="all">
                     <div id="one">
-                        <input class="input" type="text" name="fname" placeholder="First Name" maxlength="15">
+                        <input class="input" type="text" name="fname" placeholder="First Name" maxlength="15" required>
                     </div>
 
                     <div id="one">
-                        <input class="input" type="text" name="lname" placeholder="Last Name" maxlength="`15">
+                        <input class="input" type="text" name="lname" placeholder="Last Name" maxlength="`15" required>
                     </div>
 
                     <div id="one">
-                        <input class="input" type="password" name="password" placeholder="Password" min="8">
+                        <input class="input" type="password" name="password" placeholder="Password" minlength="8" required>
                     </div>
 
                     <div id="one">
-                        <input class="input" type="password" name="cpassword" placeholder="Confirm password" min="8">
+                        <input class="input" type="password" name="cpassword" placeholder="Confirm password" minlength="8" required>
                     </div>
 
                     <div id="one">
-                        <input class="input" type="number" name="phone-number" placeholder="Phone Number" max="10">
+                        <input class="input" type="numbers" name="phone-number" placeholder="Phone Number" minlength="10" maxlength="10">
                     </div>
 
                     <div id="one">
-                        <input class="input" type="email" name="email" placeholder="Email">
+                        <input class="input" type="email" name="email" placeholder="Email" required>
                     </div>
 
                     <div id="one">
-                        <input class="input" type="submit" value="Sign Up">
+                        <input class="button" type="submit" value="Sign Up">
                     </div>
 
                 </div>
@@ -48,6 +48,8 @@
                     <p>Already have an account?<button class="signin">Sign In</button></p>
                     
                 </div>
+            </form>
+        </div>
     </div>
 </body>
 </html>
